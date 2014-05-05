@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 void suiji(int a[]);
-void disp ();
+void disp (int a[]);
 int main()
 {
 
@@ -18,7 +18,7 @@ void suiji(int a[]){
      int i,w,t;
 	int j=0;	
 	for(i=0;i<40;i++)
-         a[i]=i+1;
+         a[i]=i;
  	for(i=39;i>=0;i--)
 	{
 	w=rand()%40;
